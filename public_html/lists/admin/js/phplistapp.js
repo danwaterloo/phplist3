@@ -108,16 +108,23 @@ $(document).ready(function() {
     $(this).parents('.note').hide();
   });
 
-  $(".configurelink").click(function() {
-   // alert(this.href);
-    $("#configurecontent").load('./?page=ajaxcall&action=test');
-    $("#configurecontent").show();
-    return false;
+  $(".dontsavebutton").click(function() {
+     item = $(this).attr('id');
+     item = item.replace(/dontsave/,''); 
+     // alert(item);
+     
+     // it would be nicer to restore the original content, but that
+     // would takes a while to accomplish
+     $("#"+item).html('<strong>editing cancelled</strong>');
+    // console.log($("#"+item).html());
   });
 
   $("a.ajaxable").click(function() {
     var url = this.href;
     var thispage = urlParameter('page',window.location.href);
+    if (thispage == "") {
+        thispage = "home";
+    }
     var action = urlParameter('action',url);
     if (action == "") {
       url += '&action='+thispage;
@@ -345,8 +352,8 @@ $(document).ready(function() {
   var docurl = document.location.search;
   document.cookie="browsetrail="+escape(docurl);
 
- // setTimeout("autoSave();",60000); // once a minute should suffice
-  setTimeout("autoSave();",500); // for testing
+  setTimeout("autoSave();",120000); // once every two minutes should suffice
+  //setTimeout("autoSave();",500); // for testing
 
     // tick all the boxes in a category.
     $('li.selectallcategory').on('click', function(){
@@ -357,7 +364,6 @@ $(document).ready(function() {
         checkAllBoxes(lists.find('input[id^=all-lists]').prop('checked'), lists);
       }
     });
-
 
 
 /* future dev

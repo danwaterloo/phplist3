@@ -189,6 +189,7 @@ define('TLD_AUTH_MD5','https://www.phplist.com/files/tlds-alpha-by-domain.txt.md
 define('TLD_REFETCH_TIMEOUT',15552000); ## 180 days, about 6 months
 define('PQAPI_URL','https://pqapi.phplist.com/1/t/pqapi');
 if (!defined('SHOW_PQCHOICE')) define('SHOW_PQCHOICE',false);
+if (!defined('PHPLISTNEWSROOT')) define('PHPLISTNEWSROOT','https://www.phplist.com/downloadnews/');
 
 if (!defined("ALLOW_ATTACHMENTS")) define("ALLOW_ATTACHMENTS",0);
 if (!defined("EMAILTEXTCREDITS")) define("EMAILTEXTCREDITS",0);
@@ -453,7 +454,8 @@ if (!isset($GLOBALS['pagefooter']) || !is_array($GLOBALS['pagefooter'])) $GLOBAL
 if (!isset($GLOBALS['check_for_host'])) $GLOBALS['check_for_host'] = 0;
 
 ## experimental, use minified JS and CSS
-if (!defined('USE_MINIFIED_ASSETS')) define('USE_MINIFIED_ASSETS',false);
+if (!defined('USE_MINIFIED_ASSETS')) define('USE_MINIFIED_ASSETS',true);
+$firstInstallButton = '';
 
 ## set up a memcached global object, and test it
 $GLOBALS['MC'] = null;
