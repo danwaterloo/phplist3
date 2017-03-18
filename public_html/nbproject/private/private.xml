@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <coverage xmlns="http://www.netbeans.org/ns/code-coverage/1" enabled="false"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="8"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/info/it/community.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/uclicks.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/index.html</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/index.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/index.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/mviews.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/list.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/users.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/processbounces.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/checkurl.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/msgsent.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/import1.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/ui/dressprow/css/all.css</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/import2.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/importsimple.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/msgstatus.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/mclicks.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/userclicks.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/configure.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/messages.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/config/config.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/import2.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/keepalive.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/generatetext.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/import1.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/ui/dressprow/css/all.min.css</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/lib.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/ut.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/export.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/bounce.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/lt.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/init.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/import.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/addlist.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/import.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/actions/addemail.php</file>
+            <file>file:/Users/dan/github/phplist3/public_html/lists/admin/blacklistemail.php</file>
+        </group>
+    </open-files>
+</project-private>

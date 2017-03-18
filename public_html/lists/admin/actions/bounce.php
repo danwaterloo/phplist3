@@ -1,10 +1,10 @@
 <?php
 
 verifyCsrfGetToken();
-## hiding bounce header
+//# hiding bounce header
 
 $status = '';
 if (isset($_GET['hideheader'])) {
-  $_SESSION['hidebounceheader'] = true;
-  $status = ' ';
+    $_SESSION['hidebounceheader'] = true;
+    $status = ' ';
 }
